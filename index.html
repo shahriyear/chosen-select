@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JqueryChoosen</title>
+<link href="style.css" rel="stylesheet" />
+<link href="chosen.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+<script src="chosen.jquery.js"></script>
+<script type="text/javascript">
+ $(document).ready(function () {
+  $('.chosen-select').chosen();
+  });
+</script>
+ 
+</head>
+<body>
+<select data-placeholder="Choose a Country..." class="chosen-select" tabindex="2">
+            <option value=""></option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Aland Islands">Aland Islands</option>
+            <option value="Yemen">Yemen</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+          </select>
+</body>
+</html>
